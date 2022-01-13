@@ -1,0 +1,26 @@
+<input type="color">顏色，<input type="date">日期，<input type="datetime-local">日期+時間，<input type="month">年+月，<input type="week">年+周
+
+<input type="file">	放文件檔案，<input type="image">放圖片，<input type="number">輸入數字，<input type="email">輸入信箱，<input type="password">輸入密碼，<input type="tel">	填入電話
+<input type="url">傳遞網址，<input type="button">按鍵
+
+sqlite指令用大寫，變數用小寫
+
+SELECT 資料欄位1, 資料欄位2 ...
+FROM   創建資料名
+WHERE  符合的資料(1 = 10)
+
+資料庫會幫你處理一些文字轉換，幫你把資料放在 .db檔案裏面
+
+db.query("裡面是資料庫的指令，跟ls，pwd很像")，只有添加修改創建要加db，讀取不用，query() 回傳是列表包字典
+
+cron是時間排程，這行指令是為了讓他每30分鐘重啟一次防止當機
+
+所有SQLite語句開頭可以以任何關鍵字 EX : SELECT，INSERT，UPDATE，DELETE...
+
+語言種類 : js、php、asp.net、golang、jsp、python django、flask
+
+pupperteer deno 可以對系統、程式做測試
+
+#網路使用別人的東西要注意授權
+#在製作自己的網頁時需要先看別人授權
+#可以利用pm2去執行，離開也會持續運作
