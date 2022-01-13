@@ -1,0 +1,28 @@
+在伺服器上，如果要引入其他檔案(JS, CSS)，就要使用靜態網站放檔案(github)
+
+deno debugger 可以進行調適 不過開發網站的人比較常用denon，程式碼一改就重啟伺服器
+
+js轉html的指令 : deno run ???.js>???.html
+
+鍊式語法: router.get().get().get() = router.get()
+
+下列為table123.css，如果要分開使用的話，就要使用 <link  href="table123.css" rel="styles">
+
+table {
+color: black;
+font-size: 30px;
+background-color: gray;
+border-width: 8px;
+padding: 6px;
+}
+
+
+
+td {
+padding: 15px;
+}
+body{
+    background-color: orange;
+    color:white;
+    
+}
