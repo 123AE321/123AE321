@@ -1,0 +1,40 @@
+開始課程前必須具備的軟體
+
+deno 開伺服器，在終端機站著，ctrl+c停掉伺服器
+
+deno run -A helloServer.js // A是--allow-read
+
+把終端機改成bash --> select default shell --> 選擇 git bash
+
+bash 使用linux指令
+
+利用預設套件設計時，利用檔案伺服器取得url路徑，將路徑和public連在一起。(ps:此程式只能讀取文字檔，不能讀取影像檔)
+
+        const router = new Router();
+創建一個常數叫做router 他引用於deno所提供的Router使用前要先進行引用
+
+router.get("/", (context) => {
+        context.response.body = "Hello world!";
+    })
+創建一個router 他可以定義進入某個網址所要進行的動作，上面這個就代表html將會顯示Hello world
+
+function table123 {
+創建一個函數，名字叫做table123 用js所組成
+
+document.write("<table border=1>");
+            document.write("<td>");
+td為新增一列，tr為進行換行
+
+一進入就被轉址
+但他是進去8000內再進去google
+import { Application } from "https://deno.land/x/oak/mod.ts";
+
+const app = new Application();
+
+app.use((ctx) => {
+  console.log('url=', ctx.request.url)
+  ctx.response.redirect('https://www.google.com') //進入就轉址到google
+});
+
+console.log('start at : http://127.0.0.1:8000')
+await app.listen({ port: 8000 });
