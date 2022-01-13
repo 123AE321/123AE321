@@ -1,0 +1,19 @@
+google地圖用的是ajax、websocket去抓，不會一次抓下來，是根據使用者需求去抓
+
+while (true) {
+ // deno
+ // prompt
+ var line = await prompt("> ")
+
+ console.log('you type: ', line)
+}
+
+this可以直接在函式裡使用代表著這個函數，現在不建議使用this.serve serve要有很多option ，改用OAK...程式環境有時候是會變的，語法也要跟著改變
+
+沒有一年語言是不變的，不變的主因可能出在版權或各式內部問題
+
+webSocket是用另外一個port進行網路通訊的，所以client要通訊，要連到webSocket開的port
+
+微軟先提出ajax 為了做SML而做出這個函式庫
+
+關貿的產學合作是個找好工作的機會
