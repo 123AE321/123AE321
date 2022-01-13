@@ -1,0 +1,21 @@
+typscript 是把js的檔加上型態
+
+要將JS檔要轉成HTML 可以打上 deno run ???.js > ???.html
+
+為創造一個監聽函數使得個網站的port為8888
+
+這個是調用router裡的routes函數 目的是讓application知道我們有調用router 才可以在body顯示
+
+創建一個路由他可以是router.get('/',(....)=>{...})
+                  router.get('/',(....)=>{...})
+
+也可以是router.get('/',(....)=>{...})
+             .get('/',(....)=>{...})
+             
+對陣列處理
+
+陣列增加元素: 陣列.push(element)
+
+陣列移除最後元素: 陣列.pop()
+
+html元素內容物件...: html元素.append(element)
